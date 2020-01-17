@@ -64,7 +64,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
             e.printStackTrace();
         }
 
-        holder.tvUsername.setText(post.getPostByName());
+        holder.tvUsername.setText(post.getPostBy());
         holder.tvSubHead.setText(post.getSubHead());
         holder.tvCaptionBy.setText(post.getPostByName());
         holder.tvCaption.setText(post.getCaption());
